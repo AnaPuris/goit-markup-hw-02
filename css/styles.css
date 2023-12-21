@@ -12,6 +12,22 @@ a {
     text-decoration: none;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/**----------HEADER-----------------------------*/
+
+
 .start-logo {
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
@@ -54,6 +70,9 @@ a {
     color: #404BBF;
 }
 
+/**------EFFECTIVE__SOLUTIONS-----------------*/
+
+
 .main-part {
     background-color: #2E2F42;
 }
@@ -63,6 +82,7 @@ a {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .main-button {
@@ -81,6 +101,9 @@ a {
     background-color: #404BBF;
 }
 
+/**-----------WHY CHOOSE US--------------------*/
+
+
 .choice-title {
     color: #2E2F42;
     font-size: 36px;
@@ -89,7 +112,7 @@ a {
     letter-spacing: 0.02em;
 }
 
-.strategy {
+.pros-title {
     color:#2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -97,53 +120,13 @@ a {
     letter-spacing: 0.02em;
 }
 
-.strategy-text {
+.pros-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.punctuality {
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.punctuality-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.diligence {
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.diligence-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.tech {
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.tech-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
+/**-----------OUR TEAM------------------------*/
 
 .team-part {
     background-color: #F4F4FD;
@@ -156,13 +139,14 @@ a {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
 }
 
-.workers {
+.workers-list {
     background-color: #FFFFFF;
 }
 
-.team-mark {
+.employee-name {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -170,53 +154,13 @@ a {
     letter-spacing: 0.02em;
 }
 
-.mark-role {
+.employee-role {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.tom-team {
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.role-tom {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.camila-team {
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.role-camila {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.dan-team {
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.role-dan {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
+/**-----------PORTFOLIO--------------------------*/
 
 .portfolio-title {
     color: #2E2F42;
@@ -225,9 +169,10 @@ a {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
 }
 
-.bank-app {
+.portfolio-subtitle {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -235,81 +180,13 @@ a {
     letter-spacing: 0.02em;
 }
 
-.app-text {
+.subtitle-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.cashless-pymt {
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.pymt-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.medi-app {
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.medi-app-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.taxi {
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.taxi-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.screen {
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.screen-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.course {
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.course-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
+/**-----------FOOTER---------------------------*/
 
 .footer {
     background-color: #2E2F42;
